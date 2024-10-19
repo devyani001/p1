@@ -1,0 +1,147 @@
+            /* Laptop  */
+
+@media screen and (max-width: 991px) {
+
+    
+    
+        
+}
+    
+            /* Tablet  */
+    
+@media screen and (max-width: 767px) {
+    
+
+        
+}
+    
+            /* Mobile */ 
+    
+@media screen and (max-width: 479px) {
+    
+    /* 1st page */
+
+    .header , image {
+        background-position: 800px;
+    }
+
+    .main-text h1 {
+        font-size: 30px;
+        color: yellow;
+    }
+
+    .logo {
+        border: 2px solid none;
+        height: 95px;     
+        width: 145px; 
+        background-position: start;
+    }
+
+    .left-side{
+        color: #fff;
+        border: 1px solid none;
+        font-family: "Jacquard 12", system-ui;
+        font-size: 50px;
+        margin-left: 0px;
+        margin-top: 10px;
+        letter-spacing: 1px;
+        overflow: initial;
+    }
+
+    .navbar { 
+        border: 2px solid none;
+        flex: 1;
+        align-self: start;
+        text-align: right;
+        background-image: url("https://i.pinimg.com/236x/28/7f/81/287f813bc8f83935dd96dfdb92d534a9.jpg");
+        background-size: cover;
+        position: absolute;
+        width: 100px;
+        font-size: 20px;
+        left: -500px;
+        padding: 20px 50px;
+        top: 100px;
+        width: 100%;
+        transition: 0.2s ease-in-out;
+    }
+
+    .navbar.active {
+        left: 0px;
+        z-index: 2;
+    }
+    
+    .navbar ul li a {
+        color: red; 
+        text-decoration: none; 
+        /* display: none; */
+        /* background-color: wheat; */
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .content{
+        /* background-color: aliceblue; */
+    }
+
+    .burger{
+        display: block;
+        color: yellow;
+        margin-right: 20px;
+    }
+
+    .main-text p {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    /* 2nd page */
+
+        .icon{
+            display: block;
+            color: green;
+            
+        }
+    
+        .containerr {
+            flex-direction: row;
+        }
+    
+        .left-side {
+            width: 100%;
+        }
+    
+        .logo {
+    
+        }
+    
+        .clg-image {
+            width: 100%;
+            /* padding-inline: 12px; */
+            /* grid-auto -rows: 220px;  */
+        }
+    
+         .container {
+            flex-direction: column;
+        }
+    
+        .gallary {
+            width: 100%;
+            padding-inline: 12px;
+            grid-auto-rows: 190px;
+        } 
+      
+        .box {
+            grid-row: span 1;
+            grid-column: span 3;
+        }
+    
+        #box-8 {
+            grid-area: 1 / 1 / 1 / 4;
+        }
+    
+
+}
