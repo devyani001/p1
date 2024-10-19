@@ -57,7 +57,7 @@
         background-size: cover;
         position: absolute;
         width: 100px;
-        font-size: 20px;
+        font-size: 18px;
         left: -500px;
         padding: 20px 50px;
         top: 100px;
@@ -94,7 +94,7 @@
     }
 
     .main-text p {
-        font-size: 20px;
+        font-size: 18px;
         color: #fff;
     }
 
